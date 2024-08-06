@@ -2,13 +2,19 @@
 name = "python-coding-test"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Edvardas Kostkevicius <nonpublic@email>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
 fastapi = "^0.111.0"
 
+[tool.poetry.dev-dependencies]
+pytest = "^7.4"
+black = "^23.1.0"
+flake8 = "^7"
+pylint = "^3"
+mypy = "^1.8"
 
 [build-system]
 requires = ["poetry-core"]
