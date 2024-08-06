@@ -168,8 +168,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          base: dev
-          branch: staging
+          base: staging
+          branch: dev
           commit-message: "Merge dev into staging after successfull push to dev"
           committer: Edvardas Kostkevicius <edvardas42@gmail.com>
           author: Edvardas Kostkevicius <edvardas42@gmail.com>
